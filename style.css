@@ -79,3 +79,15 @@ ul {
     background-color: #cc720b;
     scale: 1.1;
 }
+
+.landing-image{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img{
+    padding: 20px;
+    width: 70%;
+    border-radius: 15px;
+}
