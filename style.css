@@ -2,13 +2,24 @@
     font-family: "work sans";
 }
 
+body {
+    margin: 0;
+}
+
 .landing {
     background-color: #fff2e7;
 
 }
 
-.landing a {
+.landing li,
+a {
     text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.landing a:hover {
+    color: #ff900e;
 }
 
 .landing nav ul {
@@ -34,4 +45,37 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
+}
+
+.landing-overview {
+    /* border: 2px solid black; */
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.landing-overview-description {
+    text-align: center;
+}
+
+.landing-overview-btn {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#btn-explore-more {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff900e;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+#btn-explore-more:hover {
+    background-color: #cc720b;
+    scale: 1.1;
 }
