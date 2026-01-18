@@ -92,6 +92,35 @@ ul {
     border-radius: 15px;
 }
 
+.feature-overview {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img-container {
+    /* border: 2px solid black; */
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    scale: 0.7;
+    margin-left: 80px;
+}
+
+.feature-list-container {
+    /* border: 2px solid black; */
+    padding-right: 30px;
+    padding: 10px 40px 10px 10px;
+    margin-right: 70px;
+}
+
+.quick-list {
+    color: #414141;
+    font-weight: 500;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
