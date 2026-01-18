@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .banner {
     background-color: #fff2e7;
 
@@ -106,14 +111,13 @@ ul {
     gap: 24px;
     grid-template-columns: repeat(2, 1fr);
     scale: 0.7;
-    margin-left: 80px;
+    padding: 30px;
 }
 
 .feature-list-container {
     /* border: 2px solid black; */
     padding-right: 30px;
-    padding: 10px 40px 10px 10px;
-    margin-right: 70px;
+    padding: 30px;
 }
 
 .quick-list {
@@ -129,4 +133,15 @@ ul {
     ul {
         flex-direction: column;
     }
+
+    .feature-overview {
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {}
