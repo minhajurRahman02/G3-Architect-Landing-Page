@@ -6,23 +6,23 @@ body {
     margin: 0;
 }
 
-.landing {
+.banner {
     background-color: #fff2e7;
 
 }
 
-.landing li,
+.banner li,
 a {
     text-decoration: none;
     color: black;
     transition: 0.3s ease;
 }
 
-.landing a:hover {
+.banner a:hover {
     color: #ff900e;
 }
 
-.landing nav ul {
+.banner nav ul {
     list-style: none;
 }
 
@@ -47,18 +47,18 @@ ul {
     gap: 30px;
 }
 
-.landing-overview {
+.banner-overview {
     /* border: 2px solid black; */
     padding: 20px;
     width: 50%;
     margin: 0 auto;
 }
 
-.landing-overview-description {
+.banner-overview-description {
     text-align: center;
 }
 
-.landing-overview-btn {
+.banner-overview-btn {
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -80,13 +80,13 @@ ul {
     scale: 1.1;
 }
 
-.landing-image{
+.banner-image {
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
 }
 
-.banner-img{
+.banner-img {
     padding: 20px;
     width: 70%;
     border-radius: 15px;
