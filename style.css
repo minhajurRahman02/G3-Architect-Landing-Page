@@ -1,0 +1,37 @@
+* {
+    font-family: "work sans";
+}
+
+.landing {
+    background-color: #fff2e7;
+
+}
+
+.landing a {
+    text-decoration: none;
+}
+
+.landing nav ul {
+    list-style: none;
+}
+
+#top-heading {
+    /* border: 2px solid black; */
+    padding: 15px 20px;
+    text-align: left;
+}
+
+nav {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    padding: 20px 60px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
