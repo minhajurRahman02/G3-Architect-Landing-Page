@@ -203,24 +203,13 @@ ul {
 
     .img-container,
     .feature-overview,
-    .feature-description,
-    .feature-image {
+    .feature-description {
         /* border: 2px solid black; */
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
         margin: 30px;
-    }
-
-    .architect-image{
-        width: 100%;
-    }
-
-    .experience-badge{
-        margin: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 
