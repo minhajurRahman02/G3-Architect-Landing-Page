@@ -229,8 +229,8 @@ ul {
 }
 
 /* responsive media query */
-/* small device */
 
+/* small device */
 @media screen and (max-width: 576px) {
 
     nav,
@@ -257,6 +257,14 @@ ul {
         margin: 50px;
     }
 
+    .award-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .award {
+        width: 100%;
+    }
 }
 
 /* medium device */
@@ -284,4 +292,10 @@ ul {
     .experience-badge {
         margin: 50px;
     }
+
+    .award-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
